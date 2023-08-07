@@ -11,5 +11,9 @@ cursor.execute("""
         ("OneYourself21","Ez"),
         ('OneYourself22',"Jk")
     """)
-
+cursor.execute("""CREATE TABLE top_scores(
+               Username VARCHAR(255),
+               Password VARCHAR(255),
+               Score INTEGER
+               )""")
 connnection.commit()
