@@ -1,2 +1,6 @@
-import random #teeheeteetee
+import Game
+
+
+
+Game.game()
 
